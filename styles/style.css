@@ -5,26 +5,121 @@ body {
   margin: 0;
 }
 main {
-  background-color: red;
+  /* background-color: red; */
   padding: none;
 }
 .intro {
-  background: url("../images/banner.png") no-repeat;
-  padding: 200px;
+  background: url("../images/banner.png") no-repeat,
+    rgb(235, 233, 233) -0.889px 0px / 100.111% 111.51%;
+  padding-right: 150px;
   height: 808px;
   display: flex;
   align-items: center;
   justify-content: right;
 }
 .intro-container {
-  width: 50%;
+  width: 40%;
   text-align: right;
 }
-.btn-primary {
-  color: #fff;
+.intro-title {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.intro-description {
+  margin-top: 25px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-primary,
+.btn-secondary {
   font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
+  padding: 20px 25px;
+  border: none;
+}
+.btn-primary {
+  color: #fff;
   background: #f15b22;
-  padding: 20px;
+}
+.btn-secondary {
+  color: #f15b22;
+  background: #fff;
+}
+.failures-container {
+  width: 1500px;
+}
+.failures-container ul {
+  list-style: none;
+  padding: 0;
+}
+.failures-container ul li::before {
+  content: "√  ";
+  color: #16d887;
+}
+.failures {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 130px;
+}
+.failures > img {
+  height: 500px;
+}
+.failures-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failures-description,
+.failures li {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.plans-title {
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.plans-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  padding: 0 120px;
+}
+.plans-info {
+  text-align: center;
+}
+.plans-info-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 24px;
+}
+.plans-info-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.motivation {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png") no-repeat;
+  padding: 60px;
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.motivation-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
 }
