@@ -62,18 +62,23 @@ main {
 }
 .failures {
   display: flex;
-  gap: 100px;
   align-items: center;
   justify-content: space-around;
   padding: 130px;
 }
-.failures > img {
+.failures  img {
   height: 500px;
+}
+.failures-container{
+  width: 50%;
 }
 .failures-title {
   color: #151414;
   font-size: 40px;
   font-weight: 700;
+}
+.failures-description{
+  width: 416px;
 }
 .failures-description,
 .failures li {
@@ -114,12 +119,48 @@ main {
   background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
     url("../images/watch.png") no-repeat;
   padding: 60px;
-  width: 1140px;
-  margin: 0 auto;
-  margin-top: 130px;
+  width: 1000px;
+  margin: 130px auto;
 }
 .motivation-title {
   color: #fff;
   font-size: 40px;
   font-weight: 700;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 330px;
+  background: #151414;
+  padding: 130px 230px;
+}
+.future-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.future-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 485px;
+}
+.contact-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-us input{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  outline: none;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.social{
+  display: flex;
+  gap: 20px;
 }
