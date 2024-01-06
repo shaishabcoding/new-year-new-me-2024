@@ -1,0 +1,30 @@
+/* default padding margin none */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+main {
+  background-color: red;
+  padding: none;
+}
+.intro {
+  background: url("../images/banner.png") no-repeat;
+  padding: 200px;
+  height: 808px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.intro-container {
+  width: 50%;
+  text-align: right;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #f15b22;
+  padding: 20px;
+}
