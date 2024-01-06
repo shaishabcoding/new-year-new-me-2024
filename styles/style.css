@@ -3,6 +3,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-family: "Work Sans", sans-serif;
 }
 main {
   /* background-color: red; */
@@ -66,10 +67,10 @@ main {
   justify-content: space-around;
   padding: 130px;
 }
-.failures  img {
+.failures img {
   height: 500px;
 }
-.failures-container{
+.failures-container {
   width: 50%;
 }
 .failures-title {
@@ -77,7 +78,7 @@ main {
   font-size: 40px;
   font-weight: 700;
 }
-.failures-description{
+.failures-description {
   width: 416px;
 }
 .failures-description,
@@ -151,7 +152,7 @@ main {
   font-weight: 600;
   margin-bottom: 30px;
 }
-.contact-us input{
+.contact-us input {
   display: block;
   width: 100%;
   padding: 20px;
@@ -160,7 +161,7 @@ main {
   margin-top: 0;
   margin-bottom: 16px;
 }
-.social{
+.social {
   display: flex;
   gap: 20px;
 }
